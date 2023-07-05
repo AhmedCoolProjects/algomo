@@ -4,7 +4,7 @@
  * work well for content-centric websites.
  */
 
-footer {
+.footer--dark {
   background-color: #0e1a2f !important;
 }
 
@@ -35,4 +35,7 @@ footer {
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf; */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+[data-theme="dark"] .navbar {
+  background-color: #0e1a2f !important;
 }
