@@ -15,28 +15,46 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #033d96;
-  --ifm-color-primary-dark: #033787;
-  --ifm-color-primary-darker: #033480;
-  --ifm-color-primary-darkest: #022b69;
-  --ifm-color-primary-light: #0343a5;
-  --ifm-color-primary-lighter: #0346ad;
-  --ifm-color-primary-lightest: #044fc3;
+  --ifm-color-primary: #00214d;
+  --ifm-color-primary-dark: #001e45;
+  --ifm-color-primary-darker: #001c41;
+  --ifm-color-primary-darkest: #001736;
+  --ifm-color-primary-light: #002455;
+  --ifm-color-primary-lighter: #002659;
+  --ifm-color-primary-lightest: #002b64;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  /* --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf; */
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #e6e6e6;
+  --ifm-color-primary-darker: #d9d9d9;
+  --ifm-color-primary-darkest: #b3b3b3;
+  --ifm-color-primary-light: #ffffff;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-[data-theme="dark"] .navbar {
+[data-theme="dark"] .navbar,
+[data-theme="dark"]
+  .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module,
+[data-theme="dark"]
+  .sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module,
+[data-theme="dark"] .docMainContainer_gTbr,
+[data-theme="dark"] .sidebar_njMd,
+[data-theme="dark"]
+  .sidebarViewport_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module,
+[data-theme="dark"] .sidebarViewport_Xe31 {
   background-color: #0e1a2f !important;
+}
+
+.navbar__link--active,
+.menu__link--active {
+  font-weight: bold !important;
+}
+.footer__link-item:hover {
+  color: white !important;
+  font-weight: bold !important;
 }

@@ -58,10 +58,11 @@
   background: url(../../static/img/gradient.png) no-repeat center center;
   padding: 4rem 0;
   text-align: center;
+  background-color: #fff !important;
 }
-[data-theme="dark"] .custom__bg {
+/* [data-theme="dark"] .custom__bg {
   background-color: #0e1a2f !important;
-}
+} */
 
 .buttons {
   display: flex;
